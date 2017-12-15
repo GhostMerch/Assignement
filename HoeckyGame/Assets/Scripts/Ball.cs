@@ -36,7 +36,7 @@ public class Ball : MonoBehaviour {
             //if left click is pressed
             if (Input.GetMouseButtonDown(0))
             {
-                this.GetComponent<Rigidbody2D>().velocity = new Vector2(2f, 10f);
+                this.GetComponent<Rigidbody2D>().velocity = new Vector2(15f, 5f);
                 hasStarted = true;
             }
         }
