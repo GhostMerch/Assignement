@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
-    private Paddle myPaddle;
+    private PaddleP2 myPaddle;
 
     private Vector3 paddleToBallVector;
 

@@ -5,6 +5,7 @@ using UnityEngine;
 public class PaddleP1 : MonoBehaviour {
 
     public float speed = 1.5f;
+    public static int scoreP1 = 3;
 
 	// Use this for initialization
 	void Start () {

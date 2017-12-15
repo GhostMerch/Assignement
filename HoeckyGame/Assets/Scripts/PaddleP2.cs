@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Paddle : MonoBehaviour {
+public class PaddleP2 : MonoBehaviour {
 
     private Ball myBall;
+    public static int scoreP2 = 0;
 
     //to make the W & S use if(w is pressed && less then max Height)
 
