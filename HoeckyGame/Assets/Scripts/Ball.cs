@@ -8,7 +8,7 @@ public class Ball : MonoBehaviour {
 
     private Vector3 paddleToBallVector;
 
-    private bool hasStarted = false;
+    public static bool hasStarted = false;
 
     float randomX, randomY;
 
@@ -33,6 +33,7 @@ public class Ball : MonoBehaviour {
     {
         if (!hasStarted)
         {
+            this.transform.position = new Vector2(0, 0);
             //if left click is pressed
             if (Input.GetMouseButtonDown(0))
             {

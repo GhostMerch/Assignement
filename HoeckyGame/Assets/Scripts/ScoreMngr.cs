@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class ScoreMngr : MonoBehaviour {
 
-
-
-    //works when Collider is Trigger
-    //void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    scoreP1 += 1;
-    //}
-
     // Use this for initialization
     void Start()
     {
@@ -23,7 +15,7 @@ public class ScoreMngr : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (PaddleP1.scoreP1 == target)
+        if (PaddleP1.scoreP1 == target || PaddleP2.scoreP2 == target)
         {
             LevelManager.LoadNextLevel();
         }
