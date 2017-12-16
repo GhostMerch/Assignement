@@ -9,6 +9,7 @@ public class scoreP2 : MonoBehaviour {
         PaddleP1.scoreP1 += 1;
         Debug.Log("Player 1's score: " + PaddleP1.scoreP1);
         Ball.hasStarted = false;
+        scoreP1txt.count = true;
     }
 
     // Use this for initialization
@@ -18,6 +19,6 @@ public class scoreP2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        
+    }
 }
