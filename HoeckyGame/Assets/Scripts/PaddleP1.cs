@@ -6,16 +6,20 @@ public class PaddleP1 : MonoBehaviour {
 
     public float speed = 1.5f;
     public static int scoreP1 = 0;
+    public static int levelNum = 0;
 
-	// Use this for initialization
-	void Start () {
-		
+    void DontDestroyOnLoad()
+    {
+
+    }
+
+    // Use this for initialization
+    void Start () {
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
-
         if (Input.GetKey(KeyCode.W) && this.transform.position.y < 4f)
         {
             this.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 9f);
