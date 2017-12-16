@@ -22,7 +22,7 @@ public class winnerChoice : MonoBehaviour {
         {
             txt.text = "It's a tie!";
         }
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -11,6 +11,7 @@ public class scoreP1 : MonoBehaviour {
         Debug.Log("Player 2's score: " + PaddleP2.scoreP2);
         Ball.hasStarted = false;
         scoreP2txt.count = true;
+        PaddleP2.counter += 1;
     }
 
     // Use this for initialization

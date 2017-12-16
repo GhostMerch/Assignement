@@ -6,6 +6,7 @@ public class PaddleP2 : MonoBehaviour {
 
     private Ball myBall;
     public static int scoreP2 = 0;
+    public static int counter = 0;
 
     void DontDestroyOnLoad()
     {
@@ -17,7 +18,7 @@ public class PaddleP2 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame

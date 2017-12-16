@@ -7,6 +7,7 @@ public class PaddleP1 : MonoBehaviour {
     public float speed = 1.5f;
     public static int scoreP1 = 0;
     public static int levelNum = 0;
+    public static int counter = 0;
 
     void DontDestroyOnLoad()
     {
@@ -16,7 +17,7 @@ public class PaddleP1 : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
