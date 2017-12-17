@@ -11,7 +11,7 @@ public class PaddleP1 : MonoBehaviour {
 
     void DontDestroyOnLoad()
     {
-
+        
     }
 
     // Use this for initialization

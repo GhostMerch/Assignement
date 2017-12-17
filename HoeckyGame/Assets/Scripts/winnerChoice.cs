@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class winnerChoice : MonoBehaviour {
 
-    public Text txt;
+    private Text txt;
 
     // Use this for initialization
     void Start () {

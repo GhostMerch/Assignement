@@ -16,6 +16,5 @@ public class RightWall : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position = new Vector2(transform.position.x, Mathf.PingPong(Time.time * 2, max - min) + min);
-        Debug.Log(transform.position);
     }
 }
